@@ -91,8 +91,8 @@ function App() {
   }
 
   return (
-    <section className=" flex items-center m-32">
-      <div className=" flex flex-col  p-6 border m-auto w-[30em] shadow bg-gray-100 ">
+    <section className=" flex flex-col items-center h-screen m-auto bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ...  ">
+      <div className=" flex flex-col  p-6 border m-auto w-[30em] shadow bg-slate-200">
         {myAlert && <Alert {...alert} />}
 
         <h1 className="text-xl font-bold capitalize text-center mb-3">
