@@ -1,7 +1,7 @@
 import instance from "../components/for-axios/axios";
 // const header = new Headers({ "Access-Control-Allow-Origin": "*" });
 
-const BASE_URL = "https://grocery-bud-client-side.herokuapp.com/";
+const BASE_URL = "https://grocery-bud-server-side.onrender.com/";
 export const GetAllPosts = async () => {
   try {
     const response = await fetch(`${BASE_URL}api/v1/tasks`);
